@@ -6,8 +6,7 @@
   "keywords": [
     "css",
     "oocss",
-    "",
-    ""
+    "vertical-align"
   ],
   "css-vertical-align": {
     "type": "git",
