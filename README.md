@@ -28,7 +28,7 @@ or download the css on github and include in your project.
 .v-top      { vertical-align: top; }
 .v-btm      { vertical-align: bottom; }
 
-@include break(not-small) {
+@media screen and (min-width: 48em) {
   .v-base-ns     { vertical-align: baseline; }
   .v-sub-ns      { vertical-align: sub; }
   .v-sup-ns      { vertical-align: super; }
@@ -39,7 +39,7 @@ or download the css on github and include in your project.
   .v-btm-ns      { vertical-align: bottom; }
 }
 
-@include break(medium) {
+@media screen and (min-width: 48em) and (max-width: 64em) {
   .v-base-m     { vertical-align: baseline; }
   .v-sub-m      { vertical-align: sub; }
   .v-sup-m      { vertical-align: super; }
@@ -50,7 +50,7 @@ or download the css on github and include in your project.
   .v-btm-m      { vertical-align: bottom; }
 }
 
-@include break(large) {
+@media screen and (min-width: 64em)  {
   .v-base-l     { vertical-align: baseline; }
   .v-sub-l      { vertical-align: sub; }
   .v-sup-l      { vertical-align: super; }
