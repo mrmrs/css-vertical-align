@@ -20,7 +20,8 @@ View on [npm](https://www.npmjs.org/package/css-vertical-align)
 ## File Size
 
 1.5K vertical-align.css
-1.1K vertical-align.min.css
+1.1K vertical-align.min.css 
+250B minified and gzipped
 
 ## The Code
 ```
