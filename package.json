@@ -1,5 +1,6 @@
 {
   "name": "css-vertical-align",
+  "style": "vertical-align.css",
   "version": "0.0.4",
   "homepage": "http://github.com/mrmrs/css-vertical-align",
   "description": "Css module of single purpose classes for vertical align",
