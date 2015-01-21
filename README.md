@@ -20,7 +20,7 @@ View on [npm](https://www.npmjs.org/package/css-vertical-align)
 ## File Size
 
 1.5K vertical-align.css
-1.1K vertical-align.min.css 
+1.1K vertical-align.min.css
 250B minified and gzipped
 
 ## The Code
@@ -78,7 +78,7 @@ View on [npm](https://www.npmjs.org/package/css-vertical-align)
 
 The MIT License (MIT)
 
-Copyright (c) 2014 @mrmrs
+Copyright (c) 2015 @mrmrs
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
