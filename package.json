@@ -1,7 +1,7 @@
 {
   "name": "css-vertical-align",
   "style": "vertical-align.css",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "homepage": "http://github.com/mrmrs/css-vertical-align",
   "description": "Css module of single purpose classes for vertical align",
   "keywords": [
@@ -30,7 +30,7 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "tachyons-cli": "^1.0.2"
+    "tachyons-cli": "^1.0.4"
   },
   "scripts": {
     "start": "tachyons src/css-vertical-align.css > css/css-vertical-align.css && tachyons src/css-vertical-align.css --minify > css/css-vertical-align.min.css && tachyons src/css-vertical-align.css --generate-docs --package=../../package.json > readme.md"
