@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const { transform } = require('lightningcss');
 
-const srcFile = path.join(__dirname, 'src', 'css-vertical-align.css');
+const srcFile = path.join(__dirname, 'src', 'vertical-align.css');
 const distDir = path.join(__dirname, 'dist');
 
 // Read source
@@ -15,22 +15,22 @@ if (!fs.existsSync(distDir)) {
 
 // Unminified — just normalize formatting
 const { code: unminified } = transform({
-  filename: 'css-vertical-align.css',
+  filename: 'vertical-align.css',
   code: Buffer.from(source),
   minify: false,
 });
 
-fs.writeFileSync(path.join(distDir, 'css-vertical-align.css'), unminified);
+fs.writeFileSync(path.join(distDir, 'vertical-align.css'), unminified);
 
 // Minified
 const { code: minified } = transform({
-  filename: 'css-vertical-align.css',
+  filename: 'vertical-align.css',
   code: Buffer.from(source),
   minify: true,
 });
 
-fs.writeFileSync(path.join(distDir, 'css-vertical-align.min.css'), minified);
+fs.writeFileSync(path.join(distDir, 'vertical-align.min.css'), minified);
 
 console.log('Build complete:');
-console.log(`  dist/css-vertical-align.css     ${unminified.length} bytes`);
-console.log(`  dist/css-vertical-align.min.css ${minified.length} bytes`);
+console.log(`  dist/vertical-align.css     ${unminified.length} bytes`);
+console.log(`  dist/vertical-align.min.css ${minified.length} bytes`);
