@@ -11,7 +11,7 @@
 .v-top      { vertical-align: top; }
 .v-btm      { vertical-align: bottom; }
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 32em) {
   .v-base-s     { vertical-align: baseline; }
   .v-sub-s      { vertical-align: sub; }
   .v-sup-s      { vertical-align: super; }
@@ -22,7 +22,7 @@
   .v-btm-s      { vertical-align: bottom; }
 }
 
-@media screen and (min-width:48em) and (max-width: 64em) {
+@media screen and (min-width:48em) {
   .v-base-m     { vertical-align: baseline; }
   .v-sub-m      { vertical-align: sub; }
   .v-sup-m      { vertical-align: super; }
@@ -33,7 +33,7 @@
   .v-btm-m      { vertical-align: bottom; }
 }
 
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 96em) {
   .v-base-l     { vertical-align: baseline; }
   .v-sub-l      { vertical-align: sub; }
   .v-sup-l      { vertical-align: super; }
