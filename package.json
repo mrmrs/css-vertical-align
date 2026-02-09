@@ -1,38 +1,44 @@
 {
   "name": "css-vertical-align",
-  "style": "vertical-align.css",
-  "version": "1.0.7",
-  "homepage": "http://github.com/mrmrs/css-vertical-align",
-  "description": "Css module of single purpose classes for vertical align",
+  "version": "2.0.0",
+  "description": "Functional CSS for vertical-align",
+  "style": "dist/vertical-align.css",
+  "main": "dist/vertical-align.css",
+  "exports": {
+    ".": "./dist/vertical-align.css",
+    "./dist/*": "./dist/*",
+    "./src/*": "./src/*"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "node build.js",
+    "prepublishOnly": "npm run build"
+  },
   "keywords": [
     "css",
-    "oocss",
-    "vertical-align"
+    "vertical-align",
+    "utility",
+    "single-purpose",
+    "functional-css"
   ],
-  "css-vertical-align": {
+  "homepage": "https://github.com/mrmrs/css-vertical-align",
+  "repository": {
     "type": "git",
-    "url": "http://github.com/mrmrs/css-vertical-align.git"
+    "url": "https://github.com/mrmrs/css-vertical-align.git"
   },
   "bugs": {
-    "url": "https://github.com/mrmrs/css-vertical-align/issues",
-    "email": "hi@mrmrs.cc"
+    "url": "https://github.com/mrmrs/css-vertical-align/issues"
   },
   "author": {
     "name": "Adam Morse",
     "email": "hi@mrmrs.cc",
     "url": "http://mrmrs.cc"
   },
-  "contributors": [
-    {
-      "name": "Adam Morse",
-      "email": "hi@mrmrs.cc"
-    }
-  ],
-  "license": "MIT",
+  "license": "ISC",
   "devDependencies": {
     "lightningcss": "^1"
-  },
-  "scripts": {
-    "build": "node build.js"
   }
 }
