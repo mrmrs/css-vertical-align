@@ -6,8 +6,8 @@ Functional CSS for vertical-align
 
 | File | Size |
 |------|------|
-| `dist/vertical-align.css` | 1625 bytes |
-| `dist/vertical-align.min.css` | 1179 bytes (248 Gzipped) |
+| `dist/vertical-align.css` | 1565 bytes |
+| `dist/vertical-align.min.css` | 1119 bytes (248 Gzipped) |
 
 ## Install
 
@@ -39,38 +39,38 @@ npm install css-vertical-align
 
 | Class   | Value                    |
 |---------|--------------------------|
-| `.v-baseline` | `vertical-align: baseline;` |
+| `.v-base` | `vertical-align: baseline;` |
 | `.v-sub` | `vertical-align: sub;` |
 | `.v-sup` | `vertical-align: super;` |
-| `.v-text-top` | `vertical-align: text-top;` |
-| `.v-text-bottom` | `vertical-align: text-bottom;` |
-| `.v-middle` | `vertical-align: middle;` |
+| `.v-txt-top` | `vertical-align: text-top;` |
+| `.v-txt-btm` | `vertical-align: text-bottom;` |
+| `.v-mid` | `vertical-align: middle;` |
 | `.v-top` | `vertical-align: top;` |
-| `.v-bottom` | `vertical-align: bottom;` |
-| `.v-baseline-s` | `vertical-align: baseline;` |
+| `.v-btm` | `vertical-align: bottom;` |
+| `.v-base-s` | `vertical-align: baseline;` |
 | `.v-sub-s` | `vertical-align: sub;` |
 | `.v-sup-s` | `vertical-align: super;` |
-| `.v-text-top-s` | `vertical-align: text-top;` |
-| `.v-text-bottom-s` | `vertical-align: text-bottom;` |
-| `.v-middle-s` | `vertical-align: middle;` |
+| `.v-txt-top-s` | `vertical-align: text-top;` |
+| `.v-txt-btm-s` | `vertical-align: text-bottom;` |
+| `.v-mid-s` | `vertical-align: middle;` |
 | `.v-top-s` | `vertical-align: top;` |
-| `.v-bottom-s` | `vertical-align: bottom;` |
-| `.v-baseline-m` | `vertical-align: baseline;` |
+| `.v-btm-s` | `vertical-align: bottom;` |
+| `.v-base-m` | `vertical-align: baseline;` |
 | `.v-sub-m` | `vertical-align: sub;` |
 | `.v-sup-m` | `vertical-align: super;` |
-| `.v-text-top-m` | `vertical-align: text-top;` |
-| `.v-text-bottom-m` | `vertical-align: text-bottom;` |
-| `.v-middle-m` | `vertical-align: middle;` |
+| `.v-txt-top-m` | `vertical-align: text-top;` |
+| `.v-txt-btm-m` | `vertical-align: text-bottom;` |
+| `.v-mid-m` | `vertical-align: middle;` |
 | `.v-top-m` | `vertical-align: top;` |
-| `.v-bottom-m` | `vertical-align: bottom;` |
-| `.v-baseline-l` | `vertical-align: baseline;` |
+| `.v-btm-m` | `vertical-align: bottom;` |
+| `.v-base-l` | `vertical-align: baseline;` |
 | `.v-sub-l` | `vertical-align: sub;` |
 | `.v-sup-l` | `vertical-align: super;` |
-| `.v-text-top-l` | `vertical-align: text-top;` |
-| `.v-text-bottom-l` | `vertical-align: text-bottom;` |
-| `.v-middle-l` | `vertical-align: middle;` |
+| `.v-txt-top-l` | `vertical-align: text-top;` |
+| `.v-txt-btm-l` | `vertical-align: text-bottom;` |
+| `.v-mid-l` | `vertical-align: middle;` |
 | `.v-top-l` | `vertical-align: top;` |
-| `.v-bottom-l` | `vertical-align: bottom;` |
+| `.v-btm-l` | `vertical-align: bottom;` |
 
 ### Responsive
 
@@ -82,7 +82,7 @@ Responsive variants are available for each class with the following suffixes:
 | `-m`   | `min-width: 48em`        |
 | `-l`   | `min-width: 96em`        |
 
-Example: `.v-baseline-m` applies the property at the medium breakpoint and above.
+Example: `.v-base-m` applies the property at the medium breakpoint and above.
 
 ## Building
 

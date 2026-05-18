@@ -1,4 +1,4 @@
-.v-baseline {
+.v-base {
   vertical-align: baseline;
 }
 
@@ -10,15 +10,15 @@
   vertical-align: super;
 }
 
-.v-text-top {
+.v-txt-top {
   vertical-align: text-top;
 }
 
-.v-text-bottom {
+.v-txt-btm {
   vertical-align: text-bottom;
 }
 
-.v-middle {
+.v-mid {
   vertical-align: middle;
 }
 
@@ -26,12 +26,12 @@
   vertical-align: top;
 }
 
-.v-bottom {
+.v-btm {
   vertical-align: bottom;
 }
 
 @media screen and (width >= 32em) {
-  .v-baseline-s {
+  .v-base-s {
     vertical-align: baseline;
   }
 
@@ -43,15 +43,15 @@
     vertical-align: super;
   }
 
-  .v-text-top-s {
+  .v-txt-top-s {
     vertical-align: text-top;
   }
 
-  .v-text-bottom-s {
+  .v-txt-btm-s {
     vertical-align: text-bottom;
   }
 
-  .v-middle-s {
+  .v-mid-s {
     vertical-align: middle;
   }
 
@@ -59,13 +59,13 @@
     vertical-align: top;
   }
 
-  .v-bottom-s {
+  .v-btm-s {
     vertical-align: bottom;
   }
 }
 
 @media screen and (width >= 48em) {
-  .v-baseline-m {
+  .v-base-m {
     vertical-align: baseline;
   }
 
@@ -77,15 +77,15 @@
     vertical-align: super;
   }
 
-  .v-text-top-m {
+  .v-txt-top-m {
     vertical-align: text-top;
   }
 
-  .v-text-bottom-m {
+  .v-txt-btm-m {
     vertical-align: text-bottom;
   }
 
-  .v-middle-m {
+  .v-mid-m {
     vertical-align: middle;
   }
 
@@ -93,13 +93,13 @@
     vertical-align: top;
   }
 
-  .v-bottom-m {
+  .v-btm-m {
     vertical-align: bottom;
   }
 }
 
 @media screen and (width >= 96em) {
-  .v-baseline-l {
+  .v-base-l {
     vertical-align: baseline;
   }
 
@@ -111,15 +111,15 @@
     vertical-align: super;
   }
 
-  .v-text-top-l {
+  .v-txt-top-l {
     vertical-align: text-top;
   }
 
-  .v-text-bottom-l {
+  .v-txt-btm-l {
     vertical-align: text-bottom;
   }
 
-  .v-middle-l {
+  .v-mid-l {
     vertical-align: middle;
   }
 
@@ -127,7 +127,7 @@
     vertical-align: top;
   }
 
-  .v-bottom-l {
+  .v-btm-l {
     vertical-align: bottom;
   }
 }
